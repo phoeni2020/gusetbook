@@ -44,9 +44,9 @@ class products
         $res = $this->query->operation($data,'products','getallbycond','AND');
         return $res;
     }
-    public function getallproducts()
+    public function getallproducts($extra)
     {
-        $res = $this->query->operation($data='*','products','getall');
+        $res = $this->query->operation($data='*','products','getall',$extra);
         return $res;
     }
 }

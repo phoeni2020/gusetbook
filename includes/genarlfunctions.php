@@ -1,7 +1,11 @@
 <?php
-function checklog()
+function checklog($seesion)
 {
-    if(isset($_SESSION['adminlog']))
+    if(isset($_SESSION[$seesion]))
+    {
+        return true;
+    }
+    elseif (isset($_SESSION['creatorlog']))
     {
         return true;
     }

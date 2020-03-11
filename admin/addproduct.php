@@ -4,7 +4,7 @@ require '../includes/paths/admin.php';
 require  $GLOBALS['includesadmin'].'genarlfunctions.php';
 require  $GLOBALS['coreadmin'].'secure.php';
 require  $GLOBALS ['includesadmin'].'products.class.php';
-if (!checklog())
+if (!checklog('adminlog') || !checklog('creatorlog'))
     exit('you are not allowed to view this page');
 if(isset($_POST['submit'])&&!empty($_POST['title']) && !empty($_POST['description'])&&!empty($_POST['price'])&&!empty($_FILES['image'])) {
     $errmsg = array();

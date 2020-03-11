@@ -1,4 +1,5 @@
 <?php
 $assetsroot = 'templates/assets/';
 $mainhtml='templates/';
-global $assetsroot,$mainhtml;
+$imgsource = 'uploads/';
+global $assetsroot,$mainhtml,$imgsource;

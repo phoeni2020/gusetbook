@@ -4,7 +4,7 @@ require '../includes/paths/admin.php';
 require  $GLOBALS['includesadmin'].'genarlfunctions.php';
 require  $GLOBALS['coreadmin'].'secure.php';
 require  $GLOBALS ['includesadmin'].'users.class.php';
-if(!checklog())
+if(!checklog('adminlog'))
     exit('you are not allowed to view this page');
 if(isset($_POST['submit'])&&!empty($_POST['username']) && !empty($_POST['password'])&&!empty($_POST['email']))
 {

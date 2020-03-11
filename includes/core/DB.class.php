@@ -171,7 +171,7 @@ class DB
         }
         elseif($op = 'getall')
         {
-            $data = $this->getall($table);
+            $data = $this->getall($table,$extracond);
             return $data;
         }
         else
@@ -374,9 +374,9 @@ class DB
         }
         return false;
     }
-    private function getall($table)
+    private function getall($table,$limit='')
     {
-        $query ="SELECT * FROM `$table`";
+        $query ="SELECT * FROM `$table`$limit ";
         $res = $this->con->query($query);
         if($res->num_rows > 0)
         {

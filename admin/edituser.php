@@ -4,8 +4,8 @@ require '../includes/paths/admin.php';
 require  $GLOBALS['includesadmin'].'genarlfunctions.php';
 require  $GLOBALS['coreadmin'].'secure.php';
 require  $GLOBALS ['includesadmin'].'users.class.php';
-if(!checklog())
-exit('you are not allowed to view this page');
+if(!checklog('adminlog'))
+    exit('you are not allowed to view this page');
 if (isset($_POST) && count($_POST) > 0)
 {
     $username = secureinputs($_POST['username']);
