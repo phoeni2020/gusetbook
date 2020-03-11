@@ -42,4 +42,6 @@ else
 {
     $err = 'not valid id';
 }
-include$GLOBALS['tempadminpath'].'/edit-user.html';
+include $GLOBALS['tempadminpath'].'header.html';
+include$GLOBALS['tempadminpath'].'edit-user.html';
+include $GLOBALS['tempadminpath'].'footer.html';

@@ -11,5 +11,6 @@ $data = new products();
 
 $products = $data->getallproducts();
 
-
+include $GLOBALS['tempadminpath'].'header.html';
 include $GLOBALS['tempadminpath'].'all-products.html';
+include $GLOBALS['tempadminpath'].'footer.html';

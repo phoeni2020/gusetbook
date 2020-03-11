@@ -30,4 +30,8 @@ if(isset($_POST['submit'])&&!empty($_POST['username']) && !empty($_POST['passwor
         $err = 'username must be more than 5 chars and password more than 6 and password should match with confirmpassword ';
     }
 }
-include$GLOBALS['tempadminpath'].'/add-user.html';
+
+include $GLOBALS['tempadminpath'].'header.html';
+include$GLOBALS['tempadminpath'].'add-user.html';
+include $GLOBALS['tempadminpath'].'footer.html';
+

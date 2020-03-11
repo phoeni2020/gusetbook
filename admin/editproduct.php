@@ -55,5 +55,7 @@ else
 {
    echo 'not valid id';
 }
+include $GLOBALS['tempadminpath'].'header.html';
 include $GLOBALS['tempadminpath'] . 'edit-product.html';
+include $GLOBALS['tempadminpath'].'footer.html';
 

@@ -12,6 +12,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1YkwG2IqmqxKKjUjKMTFNzaFzVS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,9 +26,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,13 +38,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\level1project\templates\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\level1project\templates\admin" />
       <recent name="C:\xampp\htdocs\level1project" />
       <recent name="C:\xampp\htdocs\level1project\includes\core" />
       <recent name="C:\xampp\htdocs\level1project\includes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\level1project\templates\admin" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -60,7 +69,8 @@
       <workItem from="1583821231868" duration="1393000" />
       <workItem from="1583847397286" duration="3054000" />
       <workItem from="1583892147540" duration="821000" />
-      <workItem from="1583930618228" duration="309000" />
+      <workItem from="1583930618228" duration="599000" />
+      <workItem from="1583933499878" duration="2262000" />
     </task>
     <servers />
   </component>

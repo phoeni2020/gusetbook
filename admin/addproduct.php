@@ -41,4 +41,6 @@ if(isset($_POST['submit'])&&!empty($_POST['title']) && !empty($_POST['descriptio
         $err='error wihle adding product';
     }
 }
+include $GLOBALS['tempadminpath'].'header.html';
 include $GLOBALS['tempadminpath'].'add-product.html';
+include $GLOBALS['tempadminpath'].'footer.html';

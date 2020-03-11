@@ -8,4 +8,6 @@ if(!checklog())
 $data = new users();
 
 $users = $data->getall();
-include$GLOBALS['tempadminpath'].'/all-users.html';
+include $GLOBALS['tempadminpath'].'header.html';
+include$GLOBALS['tempadminpath'].'all-users.html';
+include $GLOBALS['tempadminpath'].'footer.html';
